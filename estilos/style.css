@@ -1,0 +1,139 @@
+@charset
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: font-family: 'Open Sans', sans-serif;
+    ;
+}
+
+:root {
+    --yellow: #ffcc29;
+    --blue: #1d539e;
+    --gray: #828799;
+    --page-background: #f9fbfc;
+  }
+
+ a{
+    text-decoration: none;
+    color: #f9fbfc;
+ }
+main{
+    width: 100vw;
+    height: 100vh;
+    max-height: 100%;
+    overflow: hidden;
+    background-color: var(--page-background);
+}
+
+ header{
+    height: 50%;
+    max-height: 50%;
+    background-color: var(--blue);
+    color: #f9fbfc;
+    text-align: center;
+ }
+
+header>h1{
+    padding-top: 120px;
+    font-size: 3.4em;
+}
+
+header>p{
+    padding-top: 40px;
+    font-size: 1.2em;
+    font-weight: normal;
+}
+
+section{
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+section>div.card1{
+    border: 5px solid black;
+    background-color: var(--page-background);
+    width: 355px;
+    height: 470px;
+    margin-top: -150px;
+    padding: 30px 30px;
+}
+section>div.card1>h2{
+    padding-bottom: 20px;
+}
+
+section>div.card1>p{
+    padding-bottom: 35px;
+    
+}
+
+
+
+section>div.card2{
+    border: 5px solid black;
+    background-color: var(--page-background);
+    width: 355px;
+    height: 485px;
+    margin-top: -165px;
+    padding: 30px 30px;
+}
+
+#card-header{
+    background-color: aquamarine;
+    width: 355px;
+    
+}
+
+
+
+section>div.card2>div#card-header>h2{
+    padding-bottom: 20px;
+    
+    
+}
+
+section>div.card2>div#card-header>h2>span{
+    width: 80px;
+    height: 25px;
+    padding: 4px 4px;
+    margin: 10px 10px;
+    border: 1px solid black;
+    border-radius: 13px;
+    background-color: var(--blue);
+    color: var(--page-background);
+    float: right;
+    font-weight: normal;
+    font-size: .5em;
+    text-align: center;
+
+}
+
+
+section>div.card2>p{
+    padding-bottom: 29px;
+    
+}
+
+
+
+
+section>div.card3{
+    border: 5px solid black;
+    background-color: var(--page-background);
+    width: 355px;
+    height: 470px;
+    margin-top: -150px;
+    padding: 24px 30px;
+}
+
+section>div.card3>h2{
+    padding-bottom: 22px;
+}
+
+section>div.card3>p{
+    padding-bottom: 30px;
+    
+}
