@@ -1,0 +1,55 @@
+@charset "UTF-8";
+
+
+@media screen and (min-width: 375px) and (max-width: 812px) {
+    main{
+        overflow: scroll;
+        background-color: #1d539e ;
+    }
+
+    header{
+        height: 15%;
+        font-size: 1em;
+        
+    }
+    header>h1{
+        font-size: 1.7em;
+        padding-top: 50px;
+        
+    }
+
+    header>p{
+        font-size: .8em;
+        padding-top: 10px;
+    }
+
+    section{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    section>div.card1{
+        margin: 13px 10px;
+        padding: 10px 10px;
+        width: 300px;
+        
+    }
+    section>div.card2{
+        margin: 13px 10px;
+        padding: 10px 10px;
+        width: 300px;
+        
+    }
+
+   
+
+    section>div.card3{
+        margin: 13px 10px;
+        padding: 10px 10px;
+        width: 300px;
+        
+    }
+
+}
